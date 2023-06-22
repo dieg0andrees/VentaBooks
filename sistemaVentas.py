@@ -11,6 +11,7 @@ while True:
     """)
     opcion = int(input("Seleccione -->"))
     if opcion == 0:
+        mf.printVerde("Adios")
         break
     elif opcion ==1:
         mf.titulo("REGISTRAR LIBRO")
@@ -46,4 +47,4 @@ while True:
             else:
                 mf.printERROR("Opcion no valida")
     else:
-        mf.printERROR("Opcion invalida")
+        mf.printERROR("Opcion invalida!")
